@@ -1,0 +1,29 @@
+{
+  "name": "lesson-fourteen",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/geekhub-js-2013/lesson-fourteen.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/geekhub-js-2013/lesson-fourteen/issues"
+  },
+  "homepage": "https://github.com/geekhub-js-2013/lesson-fourteen",
+  "devDependencies": {
+    "grunt-processhtml": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.4",
+    "grunt-ngmin": "0.0.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-copy": "~0.5.0"
+  }
+}

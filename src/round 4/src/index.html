@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>A proper app</title>
+</head>
+<body>
+    <div ng-controller="Hello">
+        <div>
+            The weather is {{ weather }}
+        </div>
+        <div ng-include="'partials/name.html'"></div>
+    </div>
+    <div ng-controller="Bye">
+        {{ message }}
+    </div>
+    <!-- build:js ../../bower_components/angular/angular.min.js -->
+    <script src="../../bower_components/angular/angular.js"></script>
+    <!-- /build -->
+    <!-- build:js js/main.min.js -->
+    <script src="js/service/weather.js"></script>
+    <script src="js/controller/hello.js"></script>
+    <script src="js/controller/bye.js"></script>
+    <script src="js/index.js"></script>
+    <!-- /build -->
+</body>
+</html>
