@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Angular 2</title>
+</head>
+<body>
+    <div ng-controller="HelloCtrl">
+        <div>
+            The weather is {{ weather }}
+        </div>
+        <div>
+            <label>Name:</label>
+            <input type="text" ng-model="yourName" placeholder="Enter a name here">
+            <h1>Hello {{yourName}}!</h1>
+            <button ng-click="go()">Say Hello</button>
+        </div>
+    </div>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
